@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookStore - Cửa hàng sách trực tuyến</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <nav class="navbar">
+                <div class="nav-brand">
+                    <h1>BookStore</h1>
+                </div>
+                <div class="nav-menu">
+                    <a href="#home">Trang chủ</a>
+                    <a href="#books">Sách</a>
+                    <a href="#categories">Danh mục</a>
+                    <a href="#login">Đăng nhập</a>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section id="home" class="hero">
+                <h2>Chào mừng đến với BookStore</h2>
+                <p>Khám phá hàng ngàn cuốn sách hay</p>
+            </section>
+
+            <section id="featured-books">
+                <h3>Sách nổi bật</h3>
+                <div id="books-container" class="books-grid">
+                    <!-- Sách sẽ được load bằng JavaScript -->
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 BookStore. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
