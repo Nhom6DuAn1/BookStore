@@ -28,6 +28,8 @@ var app = express();
 var mongoose = require('mongoose');
 var mongoDB = process.env.MONGODB_URI || 'mongodb://localhost:27017/bookstore';
 
+console.log(mongoDB + "MONGODB_URI")
+
 mongoose.connect(mongoDB);
 
 var db = mongoose.connection;

@@ -285,7 +285,7 @@
                             </div>
                             <div class="card-body text-center">
                                 <% if (book.coverImage) { %>
-                                    <img src="/uploads/<%= book.coverImage %>" alt="Current Cover" class="current-cover">
+                                    <img src="<%= book.coverImage %>" alt="Current Cover" class="current-cover">
                                 <% } else { %>
                                     <div class="bg-light p-4 rounded">
                                         <i class="fas fa-image fa-3x text-muted"></i>

@@ -132,7 +132,7 @@ public class BookDetailActivity extends AppCompatActivity {
         String imageUrl = book.getCoverImage();
         if (imageUrl != null && !imageUrl.isEmpty()) {
             if (!imageUrl.startsWith("http")) {
-                imageUrl = "http://10.0.2.2:3000" + imageUrl;
+                imageUrl = "http://10.0.2.2:3000/uploads/" + imageUrl;
             }
             Glide.with(this)
                     .load(imageUrl)

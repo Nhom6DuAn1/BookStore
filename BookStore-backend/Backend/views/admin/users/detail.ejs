@@ -94,7 +94,7 @@
                         <div class="card">
                             <div class="card-body text-center">
                                 <% if (user.avatar) { %>
-                                    <img src="/uploads/<%= user.avatar %>" alt="Avatar" class="profile-avatar mb-3">
+                                    <img src="<%= user.avatar %>" alt="Avatar" class="profile-avatar mb-3">
                                 <% } else { %>
                                     <div class="profile-avatar bg-secondary d-flex align-items-center justify-content-center mb-3 mx-auto">
                                         <i class="fas fa-user fa-2x text-white"></i>

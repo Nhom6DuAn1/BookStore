@@ -160,7 +160,7 @@ public class ProfileActivity extends AppCompatActivity {
         String avatarUrl = user.getAvatar();
         if (avatarUrl != null && !avatarUrl.isEmpty()) {
             if (!avatarUrl.startsWith("http")) {
-                avatarUrl = "http://10.0.2.2:3000" + avatarUrl;
+                avatarUrl = "http://10.0.2.2:3000/uploads/" + avatarUrl;
             }
             Glide.with(this)
                     .load(avatarUrl)
